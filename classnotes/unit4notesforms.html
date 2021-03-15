@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Unit 4 Notes Forms</title>
+    </head>
+    
+    <body>
+        <h1>Apply for College</h1>
+        <form action="mailto:jthoma25@syr.edu" method="POST">
+            <!--action mailto is going to send an email of our form data-->
+            <!-- post method is required with mailto action-->
+            <!-- post sends form data with website headers-->
+            <!-- FOR A TEXT BOX <input type="text" id="fname" name="fname"> -->
+            <label for="fname">First Name: </label>
+            <br>
+            <input type="text" id="firstname" name="firstname">
+            <br>
+            <!-- id in input tag must match up with the label for prompt-->
+            <label for="comments">Comments: </label>
+            <br>
+            <textarea id="comments" name="comments" rows="10" cols="100">
+                Why are you going to college, start making money instead of owing money.
+            </textarea>
+
+            <p>PLease choose you year in school.</p>
+            <input type="radio" name="schoolyearfr" id="schoolyearfr" value="Freshman">
+            <label for="schoolyearfr">Freshman</label>
+
+            <input type="radio" name="schoolyearso" id="schoolyearso" value="Sophomore">
+            <label for="schoolyearso">Sophomore</label>
+
+            <input type="radio" name="schoolyearjr" id="schoolyearjr" value="Junior">
+            <label for="schoolyearjr">Junior</label>
+
+            <input type="radio" name="schoolyearse" id="schoolyearse" value="Senior">
+            <label for="schoolyearse">Senior</label>
+            <br>
+            <!-- labels must be unique from one another, ensure that the id still matches up-->
+
+            <!-- the only place whitespace matters in default text for text area-->
+            <br>
+            <input type="checkbox" name="veteran" is="veteran" value="Yes">
+            <label for="veteran">Veteran?</label>
+            <br>
+
+            <label for="schools">Choose a school: </label>
+            <select name="school" id="school">
+                <option value="SU">Syracuse University</option>
+                <option value="ESF">ESF</option>
+                <option value="SUNY">SUNY</option>
+            </select>
+            <br>
+            <input type="submit" value="Send Application">
+        </form>
+    </body>
+</html>
