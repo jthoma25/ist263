@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CSS Demo</title>
+        <style>
+            p, li{
+                color:darkred;
+                font-size: 1.1em;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                text-decoration: overline;
+
+            }
+            body{
+                color: blue;
+            }
+            /* only a tags inside p tags will be greem */
+            p a{
+                color:green;
+            }
+            /*for id selectors*/
+            #firstp{
+                color:hotpink;
+            }
+            /*for class selectors*/
+            .thirdp{
+                color: yellow
+                }
+            
+        </style> <!--this is tag for CSS goes in head-->
+        <!--p is the selector, color is the property, darkred is the value-->
+        <!--the declaration is color:darkred-->
+        <!--1em is the default font size-->
+    </head>
+
+    <body>
+        <!--id values must be unique-->
+        <p id="firstp">
+            Lorem ipsum.
+        </p>
+
+        <p>
+            Second Paragraph
+            <a href="http//:www.google.com">Google</a>
+        </p>
+        <!--class attributes can be used over and over again-->
+        <p class="thirdp">
+            Third paragraph
+        </p>
+        <ul>
+            <li>My list item</li>
+            <li><a href="http//:www.google.com">Google</a></li>
+
+        </ul>
+    </body>
+</html>

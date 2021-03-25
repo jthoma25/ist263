@@ -1,0 +1,41 @@
+h1{
+    color: #ff0000;
+    /*hec color required the pound sign and runs on RGB each color gets a hex value 
+    so two charactrers per color*/
+}
+/*these three selectors are pseudo selectors*/
+/*colon separates the selector from it's state*/
+
+a:link{
+    color: #00ff00;
+}
+
+a:visited{
+    color: #0000ff;
+}
+
+a:hover{
+    color: #a4c7ff;
+    background-color: #00eeff;
+}
+
+/*this uses a class selector with the pseudo state*/
+.lookdifferent:hover{color: #999999;}
+
+body{
+
+    background-image: url(../images/li-logo.png);
+    background-size: 200px;
+    background-color: #c9c9ab;
+}
+/*puts background color on the entire page*/
+
+p{background-color: #ffffff;
+    padding: 20px;
+    /*padding is the space between content and the edge of the box*/
+    margin: 50px;
+    /*space between the outside of the box and the rest of the content*/
+    border: 5px solid #0000ff;
+    /*this is a combo value
+    width is content width plus border width x2 plus margin with x2 pluss madding width x2*/
+}
