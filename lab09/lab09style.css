@@ -1,0 +1,35 @@
+body{
+    background-color: #00478B;
+}
+
+a:link{
+    color: #920000;
+
+}
+
+a:text{
+    color: #EDEDED;
+
+}
+
+h1{
+    color: #EDEDED;
+}
+
+nav{
+    background-color: #0E323D;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+nav a{color: #EDEDED;}
+
+nav a:hover {background-color: #920000;}
+
+@media only screen and (max-width: 920px){
+    nav a{ max-width: 100%; display: block; padding: 10px;}
+    span{
+        display: none;
+    }
+}
+
