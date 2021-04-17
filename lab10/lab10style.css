@@ -1,6 +1,10 @@
 body{
-    background-color: #00bfff;
+    background-color: #00478B;
     font-size: em;
+}
+
+body:text{
+    color: #ffffff;
 }
 
 a:link{
