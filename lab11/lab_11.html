@@ -7,10 +7,10 @@
 
     <script>
         function WinnerMessage(){
-            document.getElementId("messages").innerHTML = 'You won';
+            document.getElementById("messages").innerHTML = 'You won';
         }
         function TryAgain(){
-            document.getElementId("messages").innerHTML = 'Wrong Shell - Try Again';
+            document.getElementById("messages").innerHTML = 'Wrong Shell - Try Again';
         }
         function ShuffleShells(){
             document.getElementById("first").style.order = Math.floor((Math.random() * 3) + 2);
@@ -31,7 +31,7 @@
     <h1>Choose a Walnut</h1>
     <div class="container">
         <img onclick="WinnerMessage();" src="https://laferger.github.io/ist263/images/walnut.jpg" id="first" alt="first walnut" >
-        <img onclick="TryAgain();" src="https://laferger.github.io/ist263/images/walnut.jpg" id="seocond" alt="second walnut" >
+        <img onclick="TryAgain();" src="https://laferger.github.io/ist263/images/walnut.jpg" id="second" alt="second walnut" >
         <img onclick="TryAgain();" src="https://laferger.github.io/ist263/images/walnut.jpg" id="third" alt="third walnut" >
     </div>
     <div id="messages"></div>
