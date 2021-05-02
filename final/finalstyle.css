@@ -1,0 +1,34 @@
+body{
+    background-image: url("../finalImages/background.png");
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+    
+}
+
+nav a{
+    color:darkblue;
+    float: right;
+    margin-right: 10px;
+}
+
+nav a:hover{
+    color:floralwhite;
+}
+
+a{
+    color:darkblue;
+    font-size: large;
+}
+
+a:hover{
+    color:floralwhite;
+}
+
+@media only screen and (max-width: 920px){
+    nav a{ 
+        max-width: 100%; 
+        display: block; 
+        padding: 10px;
+    }
+    
+}
+
