@@ -4,6 +4,17 @@
         <meta charset="utf-8">
         <title>Athlete Fashion</title>
         <link rel="stylesheet" href="finalstyle.css">
+        <style>
+            .row1, .row2{
+                display: flex;
+            }
+            .lj, .ca{
+                flex: 1;
+            }
+            .rw, .rw2{
+                flex: 1;
+            }
+        </style>
     </head>
 
     <body>
@@ -17,36 +28,53 @@
         <h1>Favorites</h1>
 
         <ul>
-            <li>Lebron James</li>
-            <li>Carmelo Anthony</li>
-            <li>Russell Westbrook</li>
+            <li><a href="favorites.html#lebron">Lebron James</a></li>
+            <li><a href="favorites.html#carmelo">Carmelo Anthony</a></li>
+            <li><a href="favorites.html#westbrook">Russell Westbrook</a></li>
         </ul>
-
-        <section>
-            <section>
-                <a class="lebronLink" href="details.html#lebron">Lebron James Pregame vs Heat 3/12/20</a>
-            </section>
-            
-            <img class ="lebron" src="../finalImages/lebron.jpeg" alt="Lebron James pregame outfit">
-            <br>
-            <br>
-            <section>
-                <a class="carmeloLink" href="details.html#melo">Carmelo Anthony Pregame vs Knicks 11/12/19</a>
-            </section>
-            
-            <img class ="carmelo" src="../finalImages/melo.jpeg" alt="Carmelo Anthony pregame outfit">
-            <section>
-                <a class="westbrookLink" href="details.html#westbrook">Russell Westbrook Pregame vs Thunder 1/6/20</a>
-            </section>
-            
-            <img class ="westbrook" src="../finalImages/westbrook.jpeg" alt="Russell Westbrook pregame outfit">
-            <br>
-            <br>
-            <section>
-                <a class="westbrook2Link" href="details.html#westbrook2">Russell Westbrook Pregame vs Rockets 3/28/21</a>
-            </section>
+        <br>
+        <br>
         
-            <img class ="westbrook2" src="../finalImages/westbrook2.jpeg" alt="Russell Westbrook pregame outfit">
+        <section>
+            <div class="row1">
+                <div class="lj">
+                    <section>
+                        <a id="lebron"></a>
+                        <a class="lebronLink" href="details.html#lebron">Lebron James Pregame vs Heat 3/12/20</a>
+                    </section>
+                    
+                    <img class ="lebron" src="../finalImages/lebron.jpeg" alt="Lebron James pregame outfit">
+                </div>
+                <br>
+                <br>
+                <div class="ca">
+                    <section>
+                        <a id="carmelo"></a>
+                        <a class="carmeloLink" href="details.html#melo">Carmelo Anthony Pregame vs Knicks 11/12/19</a>
+                    </section>
+                    
+                    <img class ="carmelo" src="../finalImages/melo.jpeg" alt="Carmelo Anthony pregame outfit">
+                </div>
+            </div>
+            <div class="row2">
+                <div class="rw">
+                    <section>
+                        <a id="westbrook"></a>
+                        <a class="westbrookLink" href="details.html#westbrook">Russell Westbrook Pregame vs Thunder 1/6/20</a>
+                    </section>
+                    
+                    <img class ="westbrook" src="../finalImages/westbrook.jpeg" alt="Russell Westbrook pregame outfit">
+                </div>
+                <br>
+                <br>
+                <div class="rw2">
+                    <section>
+                        <a class="westbrook2Link" href="details.html#westbrook2">Russell Westbrook Pregame vs Rockets 3/28/21</a>
+                    </section>
+                
+                    <img class ="westbrook2" src="../finalImages/westbrook2.jpeg" alt="Russell Westbrook pregame outfit">
+                </div>
+            </div>
         </section>
 
     </body>

@@ -3,6 +3,10 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;  
     
 }
+h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
 
 nav a{
     color:darkblue;
@@ -22,6 +26,7 @@ a{
 a:hover{
     color:floralwhite;
 }
+
 
 @media only screen and (max-width: 920px){
     nav a{ 
