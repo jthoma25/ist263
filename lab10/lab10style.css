@@ -17,7 +17,8 @@ a:text{
 
 }
 
-h1{
+h1, h2{
+    font-family: 'Goblin One', cursive;
     color: #EDEDED;
 }
 
