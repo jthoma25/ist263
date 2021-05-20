@@ -1,17 +1,18 @@
 body{
-    background-image: url("../finalImages/background.png");
+    background-image: url(../finalImages/background.png);
     font-family: Georgia, 'Times New Roman', Times, serif;  
     
 }
 h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
+    color: white;
 }
 
 
 
 nav a{
-    color:darkblue;
+    color:lightblue;
     float: right;
     margin-right: 10px;
 }
@@ -26,7 +27,7 @@ a{
 }
 
 a:hover{
-    color:floralwhite;
+    color: red;
 }
 
 
