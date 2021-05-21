@@ -42,7 +42,13 @@
         </style>
 
         <script>
+            function showAll(){
+                document.getElementById('melo').style.display = 'block';
+                document.getElementById('russ').style.display = 'block';
+                document.getElementById('russ2').style.display = 'block';
+                document.getElementById('lbj').style.display = 'block';
 
+            }
             function showBron(){
                 document.getElementById('melo').style.display = 'none';
                 document.getElementById('russ').style.display = 'none';
@@ -74,9 +80,9 @@
         <h1>Favorites</h1>
 
         <ul>
-            <li onclick= "showBron();"><a  href="favorites.html#lebron" >Lebron James</a></li>
-            <li onclick= "showMelo();"><a  href="favorites.html#carmelo">Carmelo Anthony</a></li>
-            <li onclick= "showRuss();"><a  href="favorites.html#westbrook">Russell Westbrook</a></li>
+            <li onclick= "showAll(); showBron();"><a  href="favorites.html#lebron" >Lebron James</a></li>
+            <li onclick= "showAll(); showMelo();"><a  href="favorites.html#carmelo">Carmelo Anthony</a></li>
+            <li onclick= "showAll(); showRuss();"><a  href="favorites.html#westbrook">Russell Westbrook</a></li>
         </ul>
         <br>
         <br>
