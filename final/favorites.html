@@ -40,22 +40,20 @@
         </style>
 
         <script>
-            function filterfavs(){
-                document.getElementById('lbj').style.display = 'none';
+
+            function showBron(){
                 document.getElementById('melo').style.display = 'none';
                 document.getElementById('russ').style.display = 'none';
             }
 
-            function showBron(){
-                document.getElementById('lbj').style.display = 'block';
-            }
-
             function showMelo(){
-                document.getElementById('melo').style.display = 'block';
+                document.getElementById('lbj').style.display = 'none';
+                document.getElementById('russ').style.display = 'none';
             }
 
             function showRuss(){
-                document.getElementById('russ').style.display = 'block';
+                document.getElementById('lbj').style.display = 'none';
+                document.getElementById('melo').style.display = 'none';
             }
         </script>
 
@@ -72,9 +70,9 @@
         <h1>Favorites</h1>
 
         <ul>
-            <li><a onlick= "filterfavs(); showBron();" href="favorites.html#lebron">Lebron James</a></li>
-            <li><a onlick= "filterfavs(); showMelo();" href="favorites.html#carmelo">Carmelo Anthony</a></li>
-            <li><a onlick= "filterfavs(); showRuss();" href="favorites.html#westbrook">Russell Westbrook</a></li>
+            <li><a  href="favorites.html#lebron" onlick= "showBron();">Lebron James</a></li>
+            <li><a onlick= "showMelo();" href="favorites.html#carmelo">Carmelo Anthony</a></li>
+            <li><a onlick= "showRuss();" href="favorites.html#westbrook">Russell Westbrook</a></li>
         </ul>
         <br>
         <br>
